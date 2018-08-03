@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>晨雾科技(MornMist)</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="让更多人看见并迈入雾计算科技时代">
+<meta name="keywords" content="雾存储,边缘计算,雾计算,IPFS,Filecoin">
+<meta name="author" content="daijiale@daijiale.cn">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="icon" href="./images/favicon.ico">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="css/tooplate-style.css">
+<!-- import vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+</head>
+<body>
+
+<!-- PRE LOADER -->
+<div class="preloader">
+     <div class="spinner">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+
+<!-- MENU -->
+<div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+     <div class="container">
+
+          <!-- NAVBAR HEADER -->
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <!-- lOGO -->
+               <div id="logo" class="logo-style">
+               <a v-bind:href="logourl"><img v-bind:src="logoimg"></a>
+               </div>
+          </div>
+
+          <!-- MENU LINKS -->
+          <div id="menu" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a v-bind:href="laburl" class="smoothScroll" target="_blank"><i style="display: inline-block;height:30px;width:30px ; background: url('./images/icon-github-w.png') no-repeat 0 0; background-size: 24px auto; position: relative; top: 5px;"></i>{{ lab }}</a></li>
+              <li><a v-bind:href="communityurl" class="smoothScroll" target="_blank"><i style="display: inline-block;height:30px;width:30px ; background: url('./images/icon-slack.png') no-repeat 0 0; background-size: 24px auto; position: relative; top: 6px;"></i>{{ community }}</a></li>
+              <!-- <li><a v-bind:href="languageurl" class="smoothScroll">{{ language }}</a></li> -->
+            </ul>
+               <ul class="nav navbar-nav navbar-right" style="margin-top:15px">
+                    <li><a v-bind:href="homeurl" class="smoothScroll">{{ home }}</a></li>
+                    <li><a v-bind:href="serviceurl" class="smoothScroll" >{{ service }}</a></li>
+                    <li><a v-bind:href="producturl" class="smoothScroll">{{ product }}</a></li>
+                    <li><a v-bind:href="recruitmenturl" class="smoothScroll">{{ recruitment }}</a></li>
+                    <li><a v-bind:href="partnerurl" class="smoothScroll">{{ partner }}</a></li>
+               </ul>
+
+          </div>
+
+     </div>
+</div>
+
+
+<!-- HOME -->
+<section id="home" class="parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+               <div class="col-md-9 col-sm-12">
+                    <div class="home-text">
+                         <h1>让更多人看见并迈入雾计算时代</h1>
+                         <p>专注于雾存储、边缘计算、分布式计算、网格计算等科技产品落地</p>
+                         <ul class="section-btn">
+                              <a href="" class="smoothScroll"><span data-hover="服务介绍">发现更多</span></a>
+                         </ul>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!-- Video -->
+       <img  id="home-gif"  src="videos/video.gif">
+</section>
+
+
+<!-- ABOUT -->
+
+
+
+<!-- CONTACT -->
+<!-- <section id="contact" class="parallax-section">
+     <div class="container">
+          <div class="row">
+          </div>
+    </div>
+</section> -->
+
+<!-- FOOTER -->
+<!-- <footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-5 col-sm-6">
+                    <h2>公司地址</h2>
+                    <p><br> <br> </p>
+
+
+               </div>
+
+               <div class="col-md-4 col-sm-6">
+                    <div class="footer-info">
+                    	<h2>联系方式</h2>
+                         <p><a href="tel:010-090-0780">010-090-0780</a></p>
+                         <p><a href="mailto:info@company.com">info@company.com</a></p>
+                    </div>
+               </div>
+
+               <div class="col-md-3 col-sm-12">
+
+                    <h2>关于我们</h2>
+                    <p></p>
+                    <ul class="social-icon">
+                         <li><a href="#" class="fa fa-twitter"></a></li>
+                         <li><a href="#" class="fa fa-facebook"></a></li>
+                         <li><a href="#" class="fa fa-instagram"></a></li>
+                         <li><a href="#" class="fa fa-linkedin"></a></li>
+                    </ul>
+
+               </div>
+
+               <div class="clearfix"></div>
+
+               <div class="col-md-12 col-sm-12">
+                    <div class="copyright-text">
+                         <p>Copyright © 2018 北京晨雾科技有限公司 | 京ICP备16039801号-1</p>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</footer> -->
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
