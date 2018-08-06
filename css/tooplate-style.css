@@ -79,7 +79,8 @@ p {
   font-weight: normal;
   letter-spacing: 0.5px;
   padding: 0 25px;
-  background: #4dc47d;
+  background: #000;
+  color:#fff;
   border-radius: 1px;
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
@@ -99,9 +100,8 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #000000;
   border-radius: 1px;
-  color: #ffffff;
+  color: #fff;
   padding: 0 25px;
   content: attr(data-hover);
   -webkit-transition: background 0.3s;
