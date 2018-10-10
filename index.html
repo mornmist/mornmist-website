@@ -1,117 +1,225 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>WIP</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
+<!DOCTYPE html><html lang=en><head><title>晨雾科技(MornMist)</title><link rel=icon href=/favicon.ico><meta charset=UTF-8><meta http-equiv=X-UA-Compatible content="IE=Edge"><meta name=description content=让更多人看见并迈入雾计算科技时代><meta name=keywords content=雾存储,边缘计算,雾计算,IPFS,Filecoin><meta name=author content=daijiale@daijiale.cn><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><link rel=stylesheet href=src/assets/css/bootstrap.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.1/fullpage.min.css><style type=text/css>blockquote,
+    body,
+    dd,
+    div,
+    dl,
+    dt,
+    fieldset,
+    form,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    input,
+    li,
+    ol,
+    p,
+    pre,
+    td,
+    textarea,
+    th,
+    ul {
+      padding: 0;
+      margin: 0
+    }
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+    a {
+      text-decoration: none
+    }
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    table {
+      border-spacing: 0
+    }
 
-	</head>
-	<body>
-		
-	<div class="fh5co-loader"></div>
-	
-	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 text-center">
-					<img style="text-align: center;width: 400px;" src="http://pezf9nm2b.bkt.clouddn.com/mornmist-logo-w.png">
-				</div>
-			</div>
-		</div>
-	</nav>
+    fieldset,
+    img {
+      border: 0
+    }
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(http://oopfu9eu6.bkt.clouddn.com/mornmistvideo.gif);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Working In Process</h1>
-							<h3 style="color:#fff;">We Are Coming Very Soon!</h3>
-							<div class="simply-countdown simply-countdown-one"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	</div>
+    address,
+    caption,
+    cite,
+    code,
+    dfn,
+    em,
+    strong,
+    th,
+    var {
+      font-weight: 400;
+      font-style: normal
+    }
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+    strong {
+      font-weight: 700
+    }
 
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
+    ol,
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0
+    }
 
-	<!-- Count Down -->
-	<script src="js/simplyCountdown.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
+    caption,
+    th {
+      text-align: left
+    }
 
-	<script>
-    var d = new Date(new Date().getTime() + 800 * 120 * 120 * 2000);
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: 400;
+      font-size: 100%;
+      margin: 0;
+      padding: 0
+    }
 
-    // default example
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth()-7,
-        day: d.getDate()
-    });
+    q:after,
+    q:before {
+      content: ''
+    }
 
-    //jQuery example
-    // $('#simply-countdown-losange').simplyCountdown({
-    //     year: d.getFullYear(),
-    //     month: d.getMonth() + 1,
-    //     day: d.getDate(),
-    //     enableUtc: false
-    // });
-</script>
+    abbr,
+    acronym {
+      border: 0
+    }
 
-	</body>
-</html>
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box
+    }
 
+    body {
+      background:#fff;
+      overflow-x:hidden;
+      font-family: arial, helvetica,sans-serif,'Source Sans Pro'
+    }
+
+    .section {
+      position: relative
+    }
+
+    #section-1 {
+      text-align: center
+    }
+
+    #section-1 h2:before {
+      content: '';
+      display: inline-block;
+      height: 200px;
+      width: 232px;
+      background-image: url(imgs/vue-fullpage2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      vertical-align: bottom
+    }
+
+    #section-1 h2 {
+      color: #fff;
+      font-size: 10em;
+      font-weight: 900
+    }
+
+    #section-1 h1 {
+      font-size: 2em;
+      font-weight: 100;
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+      margin: 1.5em auto 1em auto;
+      color: #35495e;
+      padding-right: 30px;
+      padding-left: 30px
+    }
+
+    #section-1 li {
+      display: inline-block;
+      margin: 1.25em .3em
+    }
+
+    .section-1-button {
+      padding: .93em 1.87em;
+      background: #35495e;
+      border-radius: 5px;
+      display: block;
+      color: #fff
+    }
+
+    h3 {
+      font-size: 5em;
+      text-align: center;
+      color: #fff;
+      font-weight: 700
+    }
+
+    #menu-line {
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 159px;
+      height: 2px;
+      background: #fff
+    }
+
+    #menu {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 70;
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+      letter-spacing: 1px;
+      font-size: 1.1em
+    }
+
+    #menu li {
+      display: inline-block;
+      margin: 10px 0;
+      position: relative
+    }
+
+    #menu a {
+      color: #fff;
+      padding: 0 1.1em 1.1em 1.1em
+    }
+
+    #menu li.active a:after {
+      content: '';
+      margin: 0 1.1em 0 1.1em;
+      height: 2px;
+      background: #fff;
+      display: block;
+      position: absolute;
+      bottom: -6px;
+      left: 0;
+      right: 0;
+      display: block
+    }
+
+    .actions {
+      position: fixed;
+      bottom: 2%;
+      margin: 0 auto;
+      z-index: 99;
+      left: 0;
+      right: 0;
+      text-align: center
+    }
+
+    .actions li {
+      display: inline-block;
+      margin: .3em .3em
+    }
+
+    .actions-button {
+      padding: .73em 1.47em;
+      background: rgba(53, 73, 94, .47);
+      border-radius: 5px;
+      display: block;
+      color: #fff
+    }</style><link href=/css/app.c4f3953e.css rel=preload as=style><link href=/css/chunk-vendors.f5e10743.css rel=preload as=style><link href=/js/app.6dc9e922.js rel=preload as=script><link href=/js/chunk-vendors.a461a0d2.js rel=preload as=script><link href=/css/chunk-vendors.f5e10743.css rel=stylesheet><link href=/css/app.c4f3953e.css rel=stylesheet></head><body><noscript><strong>We're sorry but mornmist-inc-website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.a461a0d2.js></script><script src=/js/app.6dc9e922.js></script></body></html>
