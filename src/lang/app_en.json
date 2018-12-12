@@ -1,0 +1,105 @@
+{
+    "menu": {
+        "home": "Home",
+        "service":"Service",
+        "about":"About",
+        "product":"Product",
+        "news":"News",
+        "member":"Member",
+        "partner":"Partner",
+        "recruitment":"Recruitment",
+        "lab":"Github | Lab",
+        "community":"Slack | Community",
+        "lang":"Translations"
+      },
+      "slogan": {
+        "title": "Let more people see and enter the era of fog computing",
+        "subtitle":"Focus on fog storage, blockchain stack, edge computing, function computing and other technology products"
+       },
+      "button": {
+         "findmore": "FindMore",
+         "servicedetails":"ServiceDetails",
+         "moreinfo":"MoreNews",
+         "contact":"contact@mornmist.tech"
+       },
+       "page": {
+        "secondtitle": "We Provide",
+        "thirdtitle": "News & Media",
+        "fourthtitle": "About Us"
+      },
+      "service":{
+        "distributedStorage": {
+          "title": "Cheaper Distributed Storage",
+          "content": "Based on the powerful IPFS ecosystem, RangeBased Sharding and other technologies to build a lower cost object storage, block storage system"
+        },
+        "p2pTransport": {
+          "title": "Faster P2P Transmission",
+          "content": "Cooperate with self-developed intelligent edge network routing system (based on OSPF , GoogleS2 , LibP2P) "
+        },
+        "encryptedData": {
+          "title": "More Secure Data Encryption",
+          "content": "Combining end-to-end encryption and re-encryption thought , we provide AES RSA Ed25519 and Multi-Key encryption system to protect your data "
+        },
+        "accessSystem": {
+          "title": "More Convenient Access System",
+          "content": "Comply with OpenStack design principles, combined with Kubernetes to virtualize platform resource capabilities , more flexible to expand and use "
+        },
+        "industrySolution": {
+          "title": "Multi-Industry Solutions",
+          "content": "Research and provide more vertical and effective industry landing plans for medical, energy, financial, education or others"
+        },
+        "smartMetadata": {
+          "title": "Smart Metadata",
+          "content": "TensorFlow can quickly models diverse machine learning tasks under heterogeneous distributed devices, we use it to create intelligent metadata for customer "
+        },
+        "professionalCustomization": {
+          "title": "Professional Customization",
+          "content": "We accept the customization requirements of Case-By-Case and provide special product design "
+        },
+        "greenComputing": {
+          "title": "Green Computing",
+          "content": "Respond to the FaaS architecture model to maximize real-time requirements and more efficiently use computing resources to serve customers "
+        },
+        "thinkFuture": {
+          "title": "More Imaginative Future",
+          "content": "We will follow the Research-Lab-Factory pipeline model and keep abreast of cutting-edge technology , continue to deliver creativity for the future."
+        }
+      },
+	"media": {
+		"firstnews": {
+			"title": "The Chinese IPFS Developer Salon 1st",
+			"content": "The Chinese IPFS Developer Salon 1st was organized by JialeDai and TianyiDong supported by Protocol Labs,we have invited guests from Huobi, ONT...",
+			"img": "https://career-pic.oss-cn-beijing.aliyuncs.com/morn-mist/ipfsdevelopermeeting-1.png",
+			"url": "https://mp.weixin.qq.com/s?timestamp=1538979508&src=3&ver=1&signature=S4Ss7957B-Dt651ZA4dWUQ0aB0wampirXMV14CbyB1GDD5KMHCC1iaxgHCEA5x94Hdhyv2lfFAf4IH1tyvQ2068EEWMQdhiUDLGV5Bh0yAUFA0Ksq7jcYnHxu2Z5*0uflV85kZRRA7yFZCi8gQyvx1Mr2fvag0XxkA6-66ZfKsk=",
+			"date": "4.14 2018"
+		},
+		"secondnews": {
+			"title": "The Chinese IPFS Developer Salon 2nd",
+			"content": "Thanks to bCamp (blockchain technology partner acceleration camp),the Chinese IPFS developer Salon 2nd was held in Beijing ...",
+			"img": "https://career-pic.oss-cn-beijing.aliyuncs.com/morn-mist/ipfsmeetup2.png",
+			"url": "https://www.huodongxing.com/event/1440031023500?utm_source=æç´¢æ´»å¨åè¡¨é¡µ&utm_medium=&utm_campaign=searchpage",
+			"date": "5.20 2018"
+		},
+		"thirdnews": {
+			"title": "JialeDai：《Blockchain Stack》",
+			"content": "JialeDai , founder of MornMist.Tech, gave a speech at the LD Research Institute's meetup , introduced the development of cloud computing caused by OpenStack technology and its application prospect in today's blockchain field...",
+			"img": "https://career-pic.oss-cn-beijing.aliyuncs.com/morn-mist/blockchainstack1.png",
+			"url": "https://mp.weixin.qq.com/s?__biz=MzU4MzY1ODYxOQ==&mid=2247484023&idx=1&sn=6c1aeb8f42251aad6c8d748ab7741cbf&chksm=fda4ff63cad3767540d9248aa3372e7d1f533f31f2ad59e8dc7cc8ac5f869807aeb879e70913&mpshare=1&scene=1&srcid=1008M7JNknOBrhujru07LzvS&key=56c3ec4f4e384c144341f4d24c424ca451af83fa0a74e7328850e94752cdc009cda11f9fc51bcc846b0e7d21ae4d38303c2bde8258271981b353924b00a8fb1a6f29bc298458706a7471ebeab2debb24&ascene=0&uin=NzkzNjUzMDYx&devicetype=iMac+MacBookPro14,2+OSX+OSX+10.13.3+build(17D102)&version=12010210&nettype=WIFI&lang=zh_CN&fontScale=100&pass_ticket=/2xruVw61vlVK3NtEwpGLB1/LN0/0ZCOjT23Kzf9+7u2+mKmiRZtbLmFCi8wfi7L",
+			"date": "9.10 2018"
+		},
+		"fourthnews": {
+			"title": "The future is a light in MornMist",
+			"content": "In 2018, after running alone for half a year, I met the partners of MornMist. We believe in the future of the fog computing era, and believe in the Internet concept of equality, democracy, freedom, and weak centralization...",
+			"img": "https://career-pic.oss-cn-beijing.aliyuncs.com/morn-mist/blockchainstack.png",
+			"url": "https://mp.weixin.qq.com/s?__biz=MzU1NTY4ODYwNA==&mid=2247483659&idx=1&sn=9bd43210a8f38b5440805012165bdb45&chksm=fbd136f8cca6bfeeea713d43f1d96384d21f2274519cdc41930738348a5b1e8d9af7ef66dfd1&mpshare=1&scene=1&srcid=1008v3MjXhs5UcSDuQLjWO2B&key=d59778da4b1138f5db082993afe7ef77f022e7512ef7041e47c81229c587cec5a6301b9d2adb89a04e77cf9d421cd9b4d3fd3458848a598cccba432a557aa9e659f29d92c10fdc0217b49713e2961a83&ascene=0&uin=NzkzNjUzMDYx&devicetype=iMac+MacBookPro14,2+OSX+OSX+10.13.3+build(17D102)&version=12010210&nettype=WIFI&lang=zh_CN&fontScale=100&pass_ticket=/2xruVw61vlVK3NtEwpGLB1/LN0/0ZCOjT23Kzf9+7u2+mKmiRZtbLmFCi8wfi7L",
+			"date": "9.30 2018"
+		}
+	},
+	"aboutus": {
+		"groups": "MornMist Inc focuses on the ecological environment of new technology products with fog computing as the core. Our team is characterized by business orientation + technology geek + composite background + continuous entrepreneurs. Our members have exported technical capabilities and product solutions for China Mobile, Didi, Huawei, Baidu, Tencent, Protocol Labs and other top domestic and foreign technology companies.",
+		"contact": "You can also follow us and communicate with us from the following channels",
+		"wechat": "WeChat",
+		"understandus": "Understand Us",
+		"contactus": "Contact Us"
+	}
+}
