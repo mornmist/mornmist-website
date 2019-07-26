@@ -14,15 +14,15 @@
         <div class="collapse navbar-collapse">
             <ul id="menulist" class="nav navbar-nav navbar-right">
                 <li data-menuanchor="home" style="margin-top:15px" class="active"><a id='menu-list-home' href="#home">{{
-                        $t("menu.home ")}}</a></li>
+                        $t("menu.home")}}</a></li>
                 <li data-menuanchor="service" style="margin-top:15px"><a id='menu-list-service' href="#service">{{
-                        $t("menu.service ")}}</a></li>
+                        $t("menu.service")}}</a></li>
                 <li data-menuanchor="news" style="margin-top:15px"><a id='menu-list-news' href="#news">{{
-                        $t("menu.news ")}}</a></li>
+                        $t("menu.news")}}</a></li>
                 <li data-menuanchor="about" style="margin-top:15px"><a id='menu-list-about' href="#about">{{
-                        $t("menu.about ")}}</a></li>
+                        $t("menu.about")}}</a></li>
                 <li style="margin-top:15px"><a id='menu-list-rec' href="https://www.zhipin.com/gongsi/149a6e989092f03d1XJ62d-8GA~~.html?ka=search_rcmd_company_149a6e989092f03d1XJ62d-8GA~~"
-                        target="_blank">{{ $t("menu.recruitment ")}}</a></li>
+                        target="_blank">{{ $t("menu.recruitment")}}</a></li>
                 <li><a id='menu-list-lab' href="https://github.com/mornmist" class="smoothScroll" target="_blank"><i id='menu-list-lab-i'
                             class="menu-icon-github"></i>{{$t("menu.lab")}}</a></li>
                 <li><a id='menu-list-slack' href="https://mornmist.slack.com" class="smoothScroll" target="_blank"><i
